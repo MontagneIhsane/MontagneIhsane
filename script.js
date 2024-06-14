@@ -27,3 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+function deleteContact(button) {
+    const li = button.parentElement;
+    li.remove();
+}
