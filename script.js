@@ -31,3 +31,8 @@ function deleteContact(button) {
     const li = button.parentElement;
     li.remove();
 }
+
+function deleteContact(button) {
+    const li = button.parentElement;
+    li.remove();
+}
